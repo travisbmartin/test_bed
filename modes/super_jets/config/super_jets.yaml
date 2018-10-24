@@ -16,3 +16,6 @@ show_player:
   mode_super_jets_started:
     super_jets_startup:
       loops: 0
+    Super_Jets_on:
+      show_tokens:
+        lights: l_super_jets

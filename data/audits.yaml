@@ -1,14 +1,16 @@
 events:
-  game_ended: 1
-  game_started: 132
+  game_ended: 3
+  game_started: 155
 player:
   score:
-    average: 40000000.0
+    average: 83000000.0
     top:
+    - 164000000
+    - 45000000
     - 40000000
-    total: 1
+    total: 3
 shots:
-  jets: 714
+  jets: 874
 switches:
   s_cabinet_left: 0
   s_cabinet_right: 0
@@ -20,7 +22,7 @@ switches:
   s_eject_chamber: 0
   s_heavy_target: 0
   s_left_25K_target: 0
-  s_left_bumper: 228
+  s_left_bumper: 283
   s_left_flipper: 0
   s_left_outlane: 0
   s_left_return_lane: 0
@@ -29,11 +31,11 @@ switches:
   s_left_slingshot: 0
   s_load_chamber: 0
   s_metal_target: 0
-  s_middle_bumper: 309
+  s_middle_bumper: 367
   s_outhole: 0
   s_ramp_drop_target: 0
   s_right_25K_target: 0
-  s_right_bumper: 177
+  s_right_bumper: 224
   s_right_flipper: 0
   s_right_outlane: 0
   s_right_return_lane: 0
@@ -47,7 +49,7 @@ switches:
   s_top_lane_A: 0
   s_top_lane_J: 0
   s_top_lane_M: 0
-  s_trough_1: 66
+  s_trough_1: 80
   s_trough_2: 0
   s_trough_3: 0
   s_trough_4: 0
