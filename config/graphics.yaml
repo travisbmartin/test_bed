@@ -12,7 +12,7 @@ displays:
 window:
   width: 600
   height: 200
-  title: Mission Pinball Framework - Powerman 5000
+  title: Mission Pinball Framework - Test Bed
   resizable: true
   fullscreen: false
   borderless: false
