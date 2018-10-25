@@ -28,7 +28,7 @@ counters:
   lb_jets_count:
     count_events: jets_hit
     starting_count: 0 
-    count_complete_value: 10 
+    count_complete_value: 100
     count_interval: 1
     direction: up
     persist_state: true
@@ -39,7 +39,7 @@ counters:
     enable_events: mode_base_started{current_player.sj_active>0}
     count_events: jets_hit
     starting_count: 0
-    count_complete_value: 5
+    count_complete_value: 25
     count_interval: 1
     direction: up
     persist_state: false
@@ -75,3 +75,9 @@ variable_player:
     sj_active:
       int: 1
       action: set
+
+show_player:
+  mode_super_jets_setup_started{current_player.sj_active>0}:
+    Super_Jets_on:
+      show_tokens:
+        lights: l_super_jets
