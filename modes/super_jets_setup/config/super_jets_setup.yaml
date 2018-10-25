@@ -27,18 +27,18 @@ shot_groups:
 counters:
   lb_jets_count:
     count_events: jets_hit
-    starting_count: 10
+    starting_count: 100
     count_complete_value: 0
     count_interval: 1
     direction: down
     persist_state: true
     events_when_complete: Super_Jets_Go
-    #debug: true
+    debug: true
     reset_on_complete: false
 
   lb_jets_resume:
     count_events: jets_hit
-    starting_count: 5
+    starting_count: 25
     count_complete_value: 0
     count_interval: 1
     direction: down
