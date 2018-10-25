@@ -27,33 +27,19 @@ shot_groups:
 counters:
   lb_jets_count:
     count_events: jets_hit
-<<<<<<< HEAD
-    starting_count: 100
-    count_complete_value: 0
-=======
     starting_count: 0 
-    count_complete_value: 10 
->>>>>>> daf392f528cf8d5243d34acff2329593ce00984b
+    count_complete_value: 100
     count_interval: 1
     direction: up
     persist_state: true
     events_when_complete: Super_Jets_Go
     debug: true
-<<<<<<< HEAD
-    reset_on_complete: false
-=======
->>>>>>> daf392f528cf8d5243d34acff2329593ce00984b
 
   lb_jets_resume:
     enable_events: mode_base_started{current_player.sj_active>0}
     count_events: jets_hit
-<<<<<<< HEAD
-    starting_count: 25
-    count_complete_value: 0
-=======
     starting_count: 0
-    count_complete_value: 5
->>>>>>> daf392f528cf8d5243d34acff2329593ce00984b
+    count_complete_value: 35
     count_interval: 1
     direction: up
     persist_state: false
