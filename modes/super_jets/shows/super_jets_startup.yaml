@@ -7,6 +7,6 @@
       - type: text
         text: SUPER JETS
         font_size: 20
-        color: red
+        color: green
         y: 60%
       priority: 200
